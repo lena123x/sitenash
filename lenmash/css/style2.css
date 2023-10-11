@@ -1,0 +1,422 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Oswald:700,400|Montserrat+Alternates:500");
+
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 2369px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.screen .header {
+  position: relative;
+  width: 1482px;
+  margin-right: -2px;
+  background-color: transparent;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 1480px;
+  height: 210px;
+  background-color: #ffffff;
+}
+
+.screen .slogan {
+  position: absolute;
+  height: 71px;
+  top: 69px;
+  left: 402px;
+  background: linear-gradient(
+    180deg,
+    rgb(164.24, 57.45, 218.88) 0%,
+    rgba(205.31, 39.11, 164.97, 0.75) 25%,
+    rgba(191.21, 30.29, 185.27, 0.78) 50%,
+    rgba(142.8, 0, 255, 0.88) 75%,
+    rgb(219, 33, 147) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.screen .logo {
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  top: 48px;
+  object-fit: cover;
+}
+
+.screen .banner {
+  position: relative;
+  width: 1480px;
+  height: 2144.92px;
+  background-color: #efeeff;
+}
+
+.screen .view {
+  position: absolute;
+  width: 1229px;
+  height: 304px;
+  top: 1008px;
+  left: 129px;
+}
+
+.screen .element {
+  position: absolute;
+  width: 252px;
+  height: 300px;
+  top: 0;
+  left: 979px;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  width: 250px;
+  top: 258px;
+  left: 0;
+  font-family: "Oswald", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .img {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .div {
+  position: absolute;
+  width: 256px;
+  height: 304px;
+  top: 0;
+  left: 650px;
+}
+
+.screen .p {
+  position: absolute;
+  width: 250px;
+  top: 262px;
+  left: 0;
+  font-family: "Oswald", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-2 {
+  position: absolute;
+  width: 254px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .element-3 {
+  position: absolute;
+  width: 252px;
+  height: 300px;
+  top: 0;
+  left: 334px;
+}
+
+.screen .element-4 {
+  position: absolute;
+  width: 250px;
+  height: 248px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .element-5 {
+  position: absolute;
+  width: 252px;
+  height: 304px;
+  top: 0;
+  left: 0;
+}
+
+.screen .view-2 {
+  position: absolute;
+  width: 1229px;
+  height: 304px;
+  top: 1463px;
+  left: 129px;
+}
+
+.screen .view-3 {
+  position: absolute;
+  width: 1229px;
+  height: 304px;
+  top: 553px;
+  left: 129px;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 423px;
+  left: 129px;
+}
+
+.screen .div-wrapper {
+  position: relative;
+  width: 250px;
+  height: 72px;
+  background-color: #db2193;
+  border-radius: 50px;
+}
+
+.screen .text-wrapper-2 {
+  position: absolute;
+  width: 220px;
+  top: 10px;
+  left: 18px;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-wrapper {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 423px;
+  left: 463px;
+}
+
+.screen .view-4 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 423px;
+  left: 779px;
+}
+
+.screen .view-5 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 423px;
+  left: 1113px;
+}
+
+.screen .view-6 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1788px;
+  left: 116px;
+}
+
+.screen .view-7 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1788px;
+  left: 450px;
+}
+
+.screen .view-8 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1788px;
+  left: 766px;
+}
+
+.screen .view-9 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1788px;
+  left: 1100px;
+}
+
+.screen .view-10 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1333px;
+  left: 116px;
+}
+
+.screen .view-11 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1333px;
+  left: 450px;
+}
+
+.screen .view-12 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1333px;
+  left: 766px;
+}
+
+.screen .view-13 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 1333px;
+  left: 1100px;
+}
+
+.screen .view-14 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 878px;
+  left: 116px;
+}
+
+.screen .view-15 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 878px;
+  left: 450px;
+}
+
+.screen .view-16 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 878px;
+  left: 766px;
+}
+
+.screen .view-17 {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  top: 878px;
+  left: 1100px;
+}
+
+.screen .view-18 {
+  position: absolute;
+  width: 1229px;
+  height: 313px;
+  top: 75px;
+  left: 129px;
+}
+
+.screen .element-6 {
+  position: absolute;
+  width: 252px;
+  height: 309px;
+  top: 0;
+  left: 979px;
+}
+
+.screen .element-7 {
+  position: absolute;
+  width: 250px;
+  top: 258px;
+  left: 0;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-8 {
+  position: absolute;
+  width: 256px;
+  height: 313px;
+  top: 0;
+  left: 650px;
+}
+
+.screen .element-9 {
+  position: absolute;
+  width: 250px;
+  top: 262px;
+  left: 0;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-10 {
+  position: absolute;
+  width: 252px;
+  height: 292px;
+  top: 0;
+  left: 334px;
+}
+
+.screen .element-11 {
+  width: 252px;
+  height: 313px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.bt{
+  position: absolute;
+  width: 252px;
+  height: 72px;
+}

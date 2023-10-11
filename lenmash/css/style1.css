@@ -1,0 +1,316 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Oswald:700|Montserrat+Alternates:500,700,800");
+
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.screen .header {
+  position: relative;
+  flex: 1;
+  width: 1482px;
+  flex-grow: 1;
+  margin-right: -2px;
+  background-color: transparent;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 1480px;
+  height: 210px;
+  background-color: #ffffff;
+}
+
+.screen .slogan {
+  position: absolute;
+  height: 71px;
+  top: 69px;
+  left: 402px;
+  background: linear-gradient(
+    180deg,
+    rgb(164.24, 57.45, 218.88) 0%,
+    rgba(205.31, 39.11, 164.97, 0.75) 25%,
+    rgba(191.21, 30.29, 185.27, 0.78) 50%,
+    rgba(142.8, 0, 255, 0.88) 75%,
+    rgb(219, 33, 147) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.screen .logo {
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  top: 48px;
+  object-fit: cover;
+}
+
+.screen .banner {
+  position: relative;
+  width: 1480px;
+  height: 700px;
+  background-color: #efeeff;
+}
+
+.screen .photo {
+  position: absolute;
+  width: 404px;
+  height: 534px;
+  top: 28px;
+  left: 909px;
+  object-fit: cover;
+}
+
+.screen .podobrat {
+  position: absolute;
+  width: 770px;
+  height: 525px;
+  top: 33px;
+  left: 80px;
+}
+
+.screen .text-wrapper {
+  top: 63px;
+  left: 11px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .div {
+  top: 127px;
+  left: 11px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-2 {
+  top: 200px;
+  left: 11px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+  top: 267px;
+  left: 11px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-4 {
+  top: 337px;
+  left: 11px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .p {
+  width: 756px;
+  top: 0;
+  left: 0;
+  font-weight: 800;
+  color: #db2193;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-5 {
+  top: 407px;
+  left: 11px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen #rectangle {
+  top: 118px;
+  position: absolute;
+  width: 356px;
+  height: 42px;
+  left: 259px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #db2193;
+}
+
+.screen #rectangle-2 {
+  top: 188px;
+  position: absolute;
+  width: 356px;
+  height: 42px;
+  left: 259px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #db2193;
+}
+
+.screen #rectangle-3 {
+  top: 258px;
+  position: absolute;
+  width: 356px;
+  height: 42px;
+  left: 259px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #db2193;
+}
+
+.screen #view {
+  position: absolute;
+  width: 356px;
+  height: 42px;
+  top: 54px;
+  left: 259px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #db2193;
+}
+
+.screen #rectangle-4 {
+  top: 328px;
+  position: absolute;
+  width: 356px;
+  height: 42px;
+  left: 259px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #db2193;
+}
+
+.screen #rectangle-5 {
+  top: 398px;
+  position: absolute;
+  width: 356px;
+  height: 42px;
+  left: 259px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #db2193;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 584px;
+  height: 72px;
+  top: 453px;
+  left: 11px;
+}
+
+.screen .div-wrapper {
+  position: relative;
+  width: 582px;
+  height: 72px;
+  background-color: #db2193;
+  border-radius: 50px;
+}
+
+.screen .text-wrapper-6 {
+  width: 511px;
+  top: 10px;
+  left: 41px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  position: absolute;
+  font-family: "Montserrat Alternates", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bt{
+  position: absolute;
+  width: 584px;
+  height: 72px;
+  border-radius: 50px;
+}

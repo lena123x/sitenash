@@ -1,0 +1,133 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+
+
+.foto-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.foto-banner .header {
+  position: relative;
+  width: 1480px;
+  margin-left: -1.5px;
+  margin-right: -1.5px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.foto-banner .overlap-group {
+  height: 234px;
+  background-color: #ffffff;
+  position: relative;
+  width: 1480px;
+}
+
+.foto-banner .slogan {
+  height: 79px;
+  top: 76px;
+  left: 402px;
+  background: linear-gradient(
+    180deg,
+    rgb(164.24, 57.45, 218.88) 0%,
+    rgba(205.31, 39.11, 164.97, 0.75) 25%,
+    rgba(191.21, 30.29, 185.27, 0.78) 50%,
+    rgba(142.8, 0, 255, 0.88) 75%,
+    rgb(219, 33, 147) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: transparent;
+  -webkit-line-clamp: 1;
+  position: absolute;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.foto-banner .logo {
+  position: absolute;
+  width: 300px;
+  height: 114px;
+  top: 53px;
+
+  object-fit: cover;
+}
+
+.foto-banner .banner {
+  position: relative;
+  width: 1482px;
+  height: 600px;
+  margin-left: -1.5px;
+  margin-right: -3.5px;
+}
+
+.foto-banner .overlap {
+  height: 530px;
+  background-color: #efeeff;
+  position: relative;
+  width: 1480px;
+}
+
+.foto-banner .rectangle {
+  position: absolute;
+  width: 1300px;
+  height: 400px;
+  top: 69px;
+  left: 90px;
+  background-color: #db2193;
+  border-radius: 50px;
+  border: 10px solid;
+  border-color: #a439da;
+}
+
+.foto-banner .text-wrapper {
+  width: 1280px;
+  height: 200px;
+  top: 170px;
+  left: 100px;
+  color: #ffffff;
+  -webkit-line-clamp: 13;
+  position: absolute;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,621 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Oswald:700,400|Montserrat+Alternates:500,700|News+Cycle:400");
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.home .header {
+  position: relative;
+  flex: 1;
+  width: 1482px;
+  flex-grow: 1;
+  margin-right: -2px;
+  background-color: transparent;
+}
+
+.home .baсkground_header {
+  position: relative;
+  width: 1480px;
+  height: 210px;
+  background-color: #ffffff;
+}
+
+.home .slogan {
+  position: absolute;
+  height: 71px;
+  top: 69px;
+  left: 402px;
+  background: linear-gradient(
+    180deg,
+    rgb(164.24, 57.45, 218.88) 0%,
+    rgba(205.31, 39.11, 164.97, 0.75) 25%,
+    rgba(191.21, 30.29, 185.27, 0.78) 50%,
+    rgba(142.8, 0, 255, 0.88) 75%,
+    rgb(219, 33, 147) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.home .logo {
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  top: 48px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.home .banner {
+  position: relative;
+  width: 1480px;
+  height: 590px;
+  background-color: #efeeff;
+}
+
+.home .photo {
+  position: absolute;
+  width: 404px;
+  height: 534px;
+  top: 28px;
+  left: 909px;
+  object-fit: cover;
+}
+
+.home .bloc {
+  position: absolute;
+  width: 736px;
+  height: 394px;
+  top: 98px;
+  left: 118px;
+}
+
+.home .overlap {
+  position: relative;
+  width: 734px;
+  height: 394px;
+  border-radius: 50px;
+}
+
+.home .button {
+  position: absolute;
+  width: 584px;
+  height: 72px;
+  top: 280px;
+  left: 36px;
+  box-sizing: border-box;
+}
+
+.home .div {
+  position: relative;
+  width: 582px;
+  height: 72px;
+  background-color: #db2193;
+  border-radius: 50px;
+}
+
+.home .text-button {
+  position: absolute;
+  width: 387px;
+  top: 18px;
+  left: 105px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .icon-lypa {
+  position: absolute;
+  width: 48px;
+  height: 49px;
+  top: 12px;
+  left: 38px;
+  object-fit: cover;
+}
+
+.home .fon-bloc {
+  position: absolute;
+  width: 734px;
+  height: 394px;
+  top: 0;
+  left: 0;
+  background-color: #ebc9de;
+  border-radius: 50px;
+  mix-blend-mode: overlay;
+}
+
+.home .icon-pris {
+  position: absolute;
+  width: 174px;
+  height: 182px;
+  top: 50px;
+  left: 550px;
+  object-fit: cover;
+}
+
+.home .text-bloc {
+  position: absolute;
+  width: 663px;
+  top: 50px;
+  left: 36px;
+  background: linear-gradient(
+    180deg,
+    rgb(164.24, 57.45, 218.88) 0%,
+    rgba(205.31, 39.11, 164.97, 0.75) 25%,
+    rgba(191.21, 30.29, 185.27, 0.78) 50%,
+    rgba(142.8, 0, 255, 0.88) 75%,
+    rgb(219, 33, 147) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.home .overlap-wrapper {
+  position: relative;
+  width: 1482px;
+  height: 734px;
+  margin-right: -2px;
+}
+
+.home .div-2 {
+  position: relative;
+  width: 1480px;
+  height: 734px;
+  background-color: #efeeff;
+}
+
+.home .overlap-group-wrapper {
+  position: absolute;
+  width: 584px;
+  height: 72px;
+  top: 608px;
+  left: 395px;
+  box-sizing: border-box;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  width: 511px;
+  top: 18px;
+  left: 40px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bt_2{
+  text-decoration: none;
+    position: absolute;
+    width: 580px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    mix-blend-mode: overlay;
+    }
+
+
+.home .bloc-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 53px;
+  position: absolute;
+  top: 208px;
+  left: 124px;
+}
+
+.home .label {
+  position: relative;
+  width: 252px;
+  height: 313px;
+}
+
+.home .text-label {
+  top: 262px;
+  position: absolute;
+  width: 250px;
+  left: 0;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .foto-label {
+  position: absolute;
+  width: 250px;
+  height: 248px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .label-2 {
+  position: relative;
+  width: 252px;
+  height: 292px;
+}
+
+.home .p {
+  top: 258px;
+  position: absolute;
+  width: 250px;
+  left: 0;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .label-3 {
+  position: relative;
+  width: 256px;
+  height: 313px;
+}
+
+.home .img {
+  position: absolute;
+  width: 254px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .label-4 {
+  position: relative;
+  width: 252px;
+  height: 309px;
+  margin-right: -2px;
+}
+
+.home .foto-label-2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .text-banner {
+  position: absolute;
+  width: 840px;
+  top: 84px;
+  left: 303px;
+  background: linear-gradient(
+    180deg,
+    rgb(164.24, 57.45, 218.88) 0%,
+    rgba(205.31, 39.11, 164.97, 0.75) 25%,
+    rgba(191.21, 30.29, 185.27, 0.78) 50%,
+    rgba(142.8, 0, 255, 0.88) 75%,
+    rgb(219, 33, 147) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.home .overlap-2 {
+  position: relative;
+  width: 1276px;
+  height: 564px;
+  top: 80px;
+  left: 104px;
+  background-image: url(./img/bloc-banner-3.svg);
+  background-size: 100% 100%;
+}
+
+.home .div-wrapper {
+  position: absolute;
+  width: 584px;
+  height: 72px;
+  top: 450px;
+  left: 291px;
+  box-sizing: border-box;
+}
+
+.bt_3{
+  text-decoration: none;
+    position: absolute;
+    width: 583px;
+    height: 72px;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    mix-blend-mode: overlay;
+    }
+
+.home .text-button-2 {
+  position: absolute;
+  width: 511px;
+  top: 14px;
+  left: 41px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .label-5 {
+  position: absolute;
+  width: 1035px;
+  height: 179px;
+  top: 202px;
+  left: 108px;
+}
+
+.home .label-6 {
+  position: absolute;
+  width: 326px;
+  height: 179px;
+  top: 0;
+  left: 715px;
+}
+
+.home .text {
+  position: absolute;
+  width: 319px;
+  top: 80px;
+  left: 1px;
+  font-family: "News Cycle", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-num-wrapper {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #db2193;
+  border-radius: 25px;
+}
+
+.home .text-num {
+  position: absolute;
+  width: 34px;
+  top: 0;
+  left: 8px;
+  font-family: "Oswald", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-zag {
+  position: absolute;
+  top: 12px;
+  left: 78px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .label-7 {
+  position: absolute;
+  width: 325px;
+  height: 179px;
+  top: 0;
+  left: 358px;
+}
+
+.home .text-text {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  width: 319px;
+  top: 80px;
+  left: 0;
+  font-family: "News Cycle", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .label-8 {
+  position: absolute;
+  width: 325px;
+  height: 179px;
+  top: 0;
+  left: 0;
+}
+
+.home .overlap-3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #db2193;
+  border-radius: 25px;
+}
+
+.home .text-text-zag {
+  position: absolute;
+  top: 7px;
+  left: 54px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .fon-text-banner {
+  position: absolute;
+  width: 842px;
+  height: 71px;
+  top: 32px;
+  left: 162px;
+}
+
+.home .overlap-4 {
+  position: relative;
+  width: 840px;
+  height: 71px;
+}
+
+.home .text-banner-2 {
+  position: absolute;
+  width: 840px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(164.24, 57.45, 218.88) 0%,
+    rgba(205.31, 39.11, 164.97, 0.75) 25%,
+    rgba(191.21, 30.29, 185.27, 0.78) 50%,
+    rgba(142.8, 0, 255, 0.88) 75%,
+    rgb(219, 33, 147) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Oswald", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.home .icon-banner {
+  position: absolute;
+  width: 65px;
+  height: 68px;
+  top: 1px;
+  left: 720px;
+  object-fit: cover;
+}
+
+.home .separation {
+  position: absolute;
+  width: 1480px;
+  height: 18px;
+  top: 1534px;
+  background-color: #ffffff;
+}
+
+.home .separation-2 {
+  position: absolute;
+  width: 1480px;
+  height: 18px;
+  top: 800px;
+  background-color: #ffffff;
+}
