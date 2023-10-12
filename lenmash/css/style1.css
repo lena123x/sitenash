@@ -1,14 +1,16 @@
+/* ГЛОБАЛЬНЫЙ CSS */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
 html,
 body {
   margin: 0px;
   height: 100%;
 }
-/* a blue color as a generic focus style */
+
 button:focus-visible {
   outline: 2px solid #4a90e2 !important;
   outline: -webkit-focus-ring-color auto 5px !important;
@@ -18,8 +20,8 @@ a {
 }
 @import url("https://fonts.googleapis.com/css?family=Oswald:700|Montserrat+Alternates:500,700,800");
 
-
-.screen {
+/* ВСЯ СТРАНИЦА */
+.page_2 {
   display: flex;
   flex-direction: column;
   height: 800px;
@@ -30,7 +32,8 @@ a {
   overflow: hidden;
 }
 
-.screen .header {
+/* ШАПКА САЙТА */
+.page_2 .header {
   position: relative;
   flex: 1;
   width: 1482px;
@@ -39,16 +42,15 @@ a {
   background-color: transparent;
 }
 
-.screen .overlap-group {
+.page_2 .background_header {
   position: relative;
   width: 1480px;
   height: 210px;
   background-color: #ffffff;
 }
 
-.screen .slogan {
+.page_2 #slogan {
   position: absolute;
-  height: 71px;
   top: 69px;
   left: 402px;
   background: linear-gradient(
@@ -77,22 +79,32 @@ a {
   -webkit-box-orient: vertical;
 }
 
-.screen .logo {
+.page_2 #logo {
   position: absolute;
   width: 300px;
   height: 102px;
   top: 48px;
   object-fit: cover;
+  cursor: pointer;
 }
 
-.screen .banner {
+.page_2 .main_button{
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  top: 48px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.page_2 .block_main {
   position: relative;
   width: 1480px;
   height: 700px;
   background-color: #efeeff;
 }
 
-.screen .photo {
+.page_2 #photo_gift {
   position: absolute;
   width: 404px;
   height: 534px;
@@ -101,7 +113,7 @@ a {
   object-fit: cover;
 }
 
-.screen .podobrat {
+.page_2 .message_window {
   position: absolute;
   width: 770px;
   height: 525px;
@@ -109,7 +121,7 @@ a {
   left: 80px;
 }
 
-.screen .text-wrapper {
+.page_2 .text_wrapper_recipient_gender {
   top: 63px;
   left: 11px;
   font-weight: 500;
@@ -123,7 +135,7 @@ a {
   line-height: normal;
 }
 
-.screen .div {
+.page_2 .text_wrapper_recipient_age {
   top: 127px;
   left: 11px;
   font-weight: 500;
@@ -137,7 +149,7 @@ a {
   line-height: normal;
 }
 
-.screen .text-wrapper-2 {
+.page_2 .text_wrapper_who_has_to {
   top: 200px;
   left: 11px;
   font-weight: 500;
@@ -151,7 +163,7 @@ a {
   line-height: normal;
 }
 
-.screen .text-wrapper-3 {
+.page_2 .text_wrapper_cause {
   top: 267px;
   left: 11px;
   font-weight: 500;
@@ -165,7 +177,7 @@ a {
   line-height: normal;
 }
 
-.screen .text-wrapper-4 {
+.page_2 .text_wrapper_hobby {
   top: 337px;
   left: 11px;
   font-weight: 500;
@@ -179,7 +191,7 @@ a {
   line-height: normal;
 }
 
-.screen .p {
+.page_2 .block_main_text {
   width: 756px;
   top: 0;
   left: 0;
@@ -198,7 +210,7 @@ a {
   line-height: normal;
 }
 
-.screen .text-wrapper-5 {
+.page_2 .text_wrapper_hobby_budget {
   top: 407px;
   left: 11px;
   font-weight: 500;
@@ -212,7 +224,7 @@ a {
   line-height: normal;
 }
 
-.screen #rectangle {
+.page_2 #input_2 {
   top: 118px;
   position: absolute;
   width: 356px;
@@ -223,7 +235,7 @@ a {
   border-color: #db2193;
 }
 
-.screen #rectangle-2 {
+.page_2 #input_3 {
   top: 188px;
   position: absolute;
   width: 356px;
@@ -234,7 +246,7 @@ a {
   border-color: #db2193;
 }
 
-.screen #rectangle-3 {
+.page_2 #input_4 {
   top: 258px;
   position: absolute;
   width: 356px;
@@ -245,7 +257,7 @@ a {
   border-color: #db2193;
 }
 
-.screen #view {
+.page_2 #input_1 {
   position: absolute;
   width: 356px;
   height: 42px;
@@ -256,7 +268,7 @@ a {
   border-color: #db2193;
 }
 
-.screen #rectangle-4 {
+.page_2 #input_5 {
   top: 328px;
   position: absolute;
   width: 356px;
@@ -267,7 +279,7 @@ a {
   border-color: #db2193;
 }
 
-.screen #rectangle-5 {
+.page_2 #input_6 {
   top: 398px;
   position: absolute;
   width: 356px;
@@ -278,7 +290,7 @@ a {
   border-color: #db2193;
 }
 
-.screen .overlap-group-wrapper {
+.page_2 .button_pick_up {
   position: absolute;
   width: 584px;
   height: 72px;
@@ -286,7 +298,7 @@ a {
   left: 11px;
 }
 
-.screen .div-wrapper {
+.page_2 .button_pick_up_background {
   position: relative;
   width: 582px;
   height: 72px;
@@ -294,7 +306,7 @@ a {
   border-radius: 50px;
 }
 
-.screen .text-wrapper-6 {
+.page_2 .button_pick_up_text {
   width: 511px;
   top: 10px;
   left: 41px;
@@ -308,7 +320,7 @@ a {
   line-height: normal;
 }
 
-.bt{
+.page_2 .button_pick_up_reference{
   position: absolute;
   width: 584px;
   height: 72px;

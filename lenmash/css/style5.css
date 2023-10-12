@@ -233,3 +233,12 @@ a {
   width: 252px;
   height: 72px;
 }
+
+.gla_button{
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  top: 48px;
+  object-fit: cover;
+  cursor: pointer;
+}

@@ -19,7 +19,7 @@ a {
 @import url("https://fonts.googleapis.com/css?family=Oswald:700,400|Montserrat+Alternates:500");
 
 
-.screen {
+.page_3 {
   display: flex;
   flex-direction: column;
   height: 2369px;
@@ -30,23 +30,25 @@ a {
   overflow: hidden;
 }
 
-.screen .header {
+/* ШАПКА САЙТА */
+.page_3 .header {
   position: relative;
+  flex: 1;
   width: 1482px;
+  flex-grow: 1;
   margin-right: -2px;
   background-color: transparent;
 }
 
-.screen .overlap-group {
+.page_3 .background_header {
   position: relative;
   width: 1480px;
   height: 210px;
   background-color: #ffffff;
 }
 
-.screen .slogan {
+.page_3 #slogan {
   position: absolute;
-  height: 71px;
   top: 69px;
   left: 402px;
   background: linear-gradient(
@@ -75,22 +77,32 @@ a {
   -webkit-box-orient: vertical;
 }
 
-.screen .logo {
+.page_3 #logo {
   position: absolute;
   width: 300px;
   height: 102px;
   top: 48px;
   object-fit: cover;
+  cursor: pointer;
 }
 
-.screen .banner {
+.page_3 .main_button{
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  top: 48px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.page_3 .banner {
   position: relative;
   width: 1480px;
   height: 2144.92px;
   background-color: #efeeff;
 }
 
-.screen .view {
+.page_3 .view {
   position: absolute;
   width: 1229px;
   height: 304px;
@@ -98,7 +110,7 @@ a {
   left: 129px;
 }
 
-.screen .element {
+.page_3 .element {
   position: absolute;
   width: 252px;
   height: 300px;
@@ -106,7 +118,7 @@ a {
   left: 979px;
 }
 
-.screen .text-wrapper {
+.page_3 .text-wrapper {
   position: absolute;
   width: 250px;
   top: 258px;
@@ -119,7 +131,7 @@ a {
   line-height: normal;
 }
 
-.screen .img {
+.page_3 .img {
   position: absolute;
   width: 250px;
   height: 250px;
@@ -128,7 +140,7 @@ a {
   object-fit: cover;
 }
 
-.screen .div {
+.page_3 .div {
   position: absolute;
   width: 256px;
   height: 304px;
@@ -136,7 +148,7 @@ a {
   left: 650px;
 }
 
-.screen .p {
+.page_3 .p {
   position: absolute;
   width: 250px;
   top: 262px;
@@ -149,7 +161,7 @@ a {
   line-height: normal;
 }
 
-.screen .element-2 {
+.page_3 .element-2 {
   position: absolute;
   width: 254px;
   height: 250px;
@@ -158,7 +170,7 @@ a {
   object-fit: cover;
 }
 
-.screen .element-3 {
+.page_3 .element-3 {
   position: absolute;
   width: 252px;
   height: 300px;
@@ -166,7 +178,7 @@ a {
   left: 334px;
 }
 
-.screen .element-4 {
+.page_3 .element-4 {
   position: absolute;
   width: 250px;
   height: 248px;
@@ -175,7 +187,7 @@ a {
   object-fit: cover;
 }
 
-.screen .element-5 {
+.page_3 .element-5 {
   position: absolute;
   width: 252px;
   height: 304px;
@@ -183,7 +195,7 @@ a {
   left: 0;
 }
 
-.screen .view-2 {
+.page_3 .view-2 {
   position: absolute;
   width: 1229px;
   height: 304px;
@@ -191,7 +203,7 @@ a {
   left: 129px;
 }
 
-.screen .view-3 {
+.page_3 .view-3 {
   position: absolute;
   width: 1229px;
   height: 304px;
@@ -199,7 +211,7 @@ a {
   left: 129px;
 }
 
-.screen .overlap-group-wrapper {
+.page_3 .overlap-group-wrapper {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -207,7 +219,7 @@ a {
   left: 129px;
 }
 
-.screen .div-wrapper {
+.page_3 .div-wrapper {
   position: relative;
   width: 250px;
   height: 72px;
@@ -215,7 +227,7 @@ a {
   border-radius: 50px;
 }
 
-.screen .text-wrapper-2 {
+.page_3 .text-wrapper-2 {
   position: absolute;
   width: 220px;
   top: 10px;
@@ -229,7 +241,7 @@ a {
   line-height: normal;
 }
 
-.screen .overlap-wrapper {
+.page_3 .overlap-wrapper {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -237,7 +249,7 @@ a {
   left: 463px;
 }
 
-.screen .view-4 {
+.page_3 .view-4 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -245,7 +257,7 @@ a {
   left: 779px;
 }
 
-.screen .view-5 {
+.page_3 .view-5 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -253,7 +265,7 @@ a {
   left: 1113px;
 }
 
-.screen .view-6 {
+.page_3 .view-6 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -261,7 +273,7 @@ a {
   left: 116px;
 }
 
-.screen .view-7 {
+.page_3 .view-7 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -269,7 +281,7 @@ a {
   left: 450px;
 }
 
-.screen .view-8 {
+.page_3 .view-8 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -277,7 +289,7 @@ a {
   left: 766px;
 }
 
-.screen .view-9 {
+.page_3 .view-9 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -285,7 +297,7 @@ a {
   left: 1100px;
 }
 
-.screen .view-10 {
+.page_3 .view-10 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -293,7 +305,7 @@ a {
   left: 116px;
 }
 
-.screen .view-11 {
+.page_3 .view-11 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -301,7 +313,7 @@ a {
   left: 450px;
 }
 
-.screen .view-12 {
+.page_3 .view-12 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -309,7 +321,7 @@ a {
   left: 766px;
 }
 
-.screen .view-13 {
+.page_3 .view-13 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -317,7 +329,7 @@ a {
   left: 1100px;
 }
 
-.screen .view-14 {
+.page_3 .view-14 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -325,7 +337,7 @@ a {
   left: 116px;
 }
 
-.screen .view-15 {
+.page_3 .view-15 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -333,7 +345,7 @@ a {
   left: 450px;
 }
 
-.screen .view-16 {
+.page_3 .view-16 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -341,7 +353,7 @@ a {
   left: 766px;
 }
 
-.screen .view-17 {
+.page_3 .view-17 {
   position: absolute;
   width: 252px;
   height: 72px;
@@ -349,7 +361,7 @@ a {
   left: 1100px;
 }
 
-.screen .view-18 {
+.page_3 .view-18 {
   position: absolute;
   width: 1229px;
   height: 313px;
@@ -357,7 +369,7 @@ a {
   left: 129px;
 }
 
-.screen .element-6 {
+.page_3 .element-6 {
   position: absolute;
   width: 252px;
   height: 309px;
@@ -365,7 +377,7 @@ a {
   left: 979px;
 }
 
-.screen .element-7 {
+.page_3 .element-7 {
   position: absolute;
   width: 250px;
   top: 258px;
@@ -378,7 +390,7 @@ a {
   line-height: normal;
 }
 
-.screen .element-8 {
+.page_3 .element-8 {
   position: absolute;
   width: 256px;
   height: 313px;
@@ -386,7 +398,7 @@ a {
   left: 650px;
 }
 
-.screen .element-9 {
+.page_3 .element-9 {
   position: absolute;
   width: 250px;
   top: 262px;
@@ -399,7 +411,7 @@ a {
   line-height: normal;
 }
 
-.screen .element-10 {
+.page_3 .element-10 {
   position: absolute;
   width: 252px;
   height: 292px;
@@ -407,7 +419,7 @@ a {
   left: 334px;
 }
 
-.screen .element-11 {
+.page_3 .element-11 {
   width: 252px;
   height: 313px;
   top: 0;
@@ -415,8 +427,17 @@ a {
   left: 0;
 }
 
-.bt{
+.page_3 .bt{
   position: absolute;
   width: 252px;
   height: 72px;
+}
+
+.page_3 .gla_button{
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  top: 48px;
+  object-fit: cover;
+  cursor: pointer;
 }
